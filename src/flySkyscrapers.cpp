@@ -130,7 +130,8 @@ std::vector<int> readFromStdin() {
   return data;
 }
 
-int main() {
+
+void flyScyScrappers() {
   std::cout << "Hello World!" << std::endl;
 
  // std::vector<int> heights = {3, 2, 1, 2, 3, 3};

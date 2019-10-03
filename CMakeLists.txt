@@ -10,5 +10,6 @@ add_executable(prep src/current.cpp
                     src/connectedComponents.cpp
                     src/flySkyscrapers.cpp
                     src/breadthSearch.cpp
-                    src/gameOfTwoStacks.cpp)
+                    src/gameOfTwoStacks.cpp
+                    src/plusOne.cpp)
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

@@ -171,8 +171,6 @@ void gameOfTwoStacks () {
 
     std::cout << twoStacks(10, a, b) << std::endl;
   }
-
-  return 0;
 }
 
 

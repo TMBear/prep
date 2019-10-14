@@ -11,5 +11,7 @@ add_executable(prep src/current.cpp
                     src/flySkyscrapers.cpp
                     src/breadthSearch.cpp
                     src/gameOfTwoStacks.cpp
-                    src/plusOne.cpp)
+                    src/plusOne.cpp
+                    src/simpleTextEditor.cpp
+                    src/splitLinkedListInParts.cpp)
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

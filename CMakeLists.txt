@@ -13,5 +13,6 @@ add_executable(prep src/current.cpp
                     src/gameOfTwoStacks.cpp
                     src/plusOne.cpp
                     src/simpleTextEditor.cpp
-                    src/splitLinkedListInParts.cpp)
+                    src/splitLinkedListInParts.cpp
+                    src/printInOrder.cpp)
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

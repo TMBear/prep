@@ -14,5 +14,6 @@ add_executable(prep src/current.cpp
                     src/plusOne.cpp
                     src/simpleTextEditor.cpp
                     src/splitLinkedListInParts.cpp
-                    src/printInOrder.cpp)
+                    src/printInOrder.cpp
+                    src/shortestPath.cpp)
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

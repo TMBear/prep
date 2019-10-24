@@ -16,5 +16,6 @@ add_executable(prep src/current.cpp
                     src/splitLinkedListInParts.cpp
                     src/printInOrder.cpp
                     src/shortestPath.cpp
-                    src/validSquare.cpp)
+                    src/validSquare.cpp
+                    src/fractionToRecurringDecimal.cpp)
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

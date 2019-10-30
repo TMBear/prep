@@ -17,5 +17,6 @@ add_executable(prep src/current.cpp
                     src/printInOrder.cpp
                     src/shortestPath.cpp
                     src/validSquare.cpp
-                    src/fractionToRecurringDecimal.cpp)
+                    src/fractionToRecurringDecimal.cpp
+                    src/trappingRainWater.cpp)
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

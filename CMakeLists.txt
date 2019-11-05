@@ -18,5 +18,7 @@ add_executable(prep src/current.cpp
                     src/shortestPath.cpp
                     src/validSquare.cpp
                     src/fractionToRecurringDecimal.cpp
-                    src/trappingRainWater.cpp)
+                    src/trappingRainWater.cpp
+                    src/concatenatedWords.cpp)
+
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

@@ -4,7 +4,8 @@ project(prep)
 
 set(CMAKE_BUILD_TYPE Debug)
 
-add_executable(prep src/current.cpp
+add_executable(prep src/utils.cpp
+                    src/current.cpp
                     src/downToZero2.cpp
                     src/avlTree.cpp
                     src/connectedComponents.cpp
@@ -19,6 +20,7 @@ add_executable(prep src/current.cpp
                     src/validSquare.cpp
                     src/fractionToRecurringDecimal.cpp
                     src/trappingRainWater.cpp
-                    src/concatenatedWords.cpp)
+                    src/concatenatedWords.cpp
+                    src/largestPlusSign.cpp)
 
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

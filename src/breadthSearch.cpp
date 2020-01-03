@@ -1,9 +1,9 @@
 // https://www.hackerrank.com/challenges/castle-on-the-grid/problem
 //
 #include <iostream>
-#include <iomanip>
 #include <vector>
 #include <queue>
+#include "utils.h"
 
 struct Position {
   int x;
@@ -23,17 +23,6 @@ struct Movement {
 
 
 using MovesGrid = std::vector<std::vector<int>>;
-
-std::ostream& operator<<(std::ostream& out, const MovesGrid& grid) {
-  for (const auto& row : grid) {
-    for (int val : row)
-      std::cout << std::setw(3) << val;
-
-    std::cout << std::endl;
-  }
-
-  return out;
-}
 
 
 Position move(const Position& pos, const Movement& mov) {

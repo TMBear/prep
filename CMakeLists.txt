@@ -21,6 +21,7 @@ add_executable(prep src/utils.cpp
                     src/fractionToRecurringDecimal.cpp
                     src/trappingRainWater.cpp
                     src/concatenatedWords.cpp
-                    src/largestPlusSign.cpp)
+                    src/largestPlusSign.cpp
+                    src/integerToEnglish.cpp)
 
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

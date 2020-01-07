@@ -22,6 +22,7 @@ add_executable(prep src/utils.cpp
                     src/trappingRainWater.cpp
                     src/concatenatedWords.cpp
                     src/largestPlusSign.cpp
-                    src/integerToEnglish.cpp)
+                    src/integerToEnglish.cpp
+                    src/superUglyNumber.cpp)
 
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

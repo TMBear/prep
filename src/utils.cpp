@@ -3,7 +3,7 @@
 
 std::ostream& operator<<(std::ostream& out, std::vector<int> v) {
   for (const auto& val : v)
-    out << std::setw(3) << val;
+    out << std::setw(5) << val;
 
   return out;
 }

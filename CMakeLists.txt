@@ -23,6 +23,7 @@ add_executable(prep src/utils.cpp
                     src/concatenatedWords.cpp
                     src/largestPlusSign.cpp
                     src/integerToEnglish.cpp
-                    src/superUglyNumber.cpp)
+                    src/superUglyNumber.cpp
+                    src/minPathSum.cpp)
 
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

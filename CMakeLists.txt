@@ -5,6 +5,7 @@ project(prep)
 set(CMAKE_BUILD_TYPE Debug)
 
 add_executable(prep src/utils.cpp
+                    src/testOstream.cpp
                     src/current.cpp
                     src/downToZero2.cpp
                     src/avlTree.cpp

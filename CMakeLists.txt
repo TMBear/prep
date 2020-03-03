@@ -28,6 +28,7 @@ add_executable(prep src/utils.cpp
                     src/minPathSum.cpp
                     src/leastOperationsToExpressNumber.cpp
                     src/gameOfLife.cpp
-                    src/burstBaloons.cpp)
+                    src/burstBaloons.cpp
+                    src/targetSum.cpp)
 
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)

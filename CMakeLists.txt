@@ -27,6 +27,7 @@ add_executable(prep src/utils.cpp
                     src/superUglyNumber.cpp
                     src/minPathSum.cpp
                     src/leastOperationsToExpressNumber.cpp
-                    src/gameOfLife.cpp)
+                    src/gameOfLife.cpp
+                    src/burstBaloons.cpp)
 
 set_property(TARGET prep PROPERTY CXX_STANDARD 17)
